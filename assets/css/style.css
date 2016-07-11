@@ -1,0 +1,21 @@
+.crystalImage {
+	width: 100px;
+	height: 104px;
+	margin: 10px;
+}
+
+.image0{
+	background: url('../images/bluecrystal.jpg');
+}
+
+.image1{
+	background: url('../images/greencrystal.jpg');
+}
+
+.image2{
+	background: url('../images/orangecrystal.jpg');
+}
+
+.image3{
+	background: url('../images/pinkcrystal.jpg');
+}

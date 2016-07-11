@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Crystal Collector!</title>
+
+	<!-- Bootstrap File -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+	<!-- Style Additions -->
+    <link href="../assets/css/style.css" rel="stylesheet" type="text/css"/>
+
+
+	<!-- JQuery -->
+	<script src="https://code.jquery.com/jquery.js"></script>
+
+
+</head>
+<body>
+
+	<!-- Overall Bootstrap Grid -->
+	<div class="container">
+		<!-- Jumbotron with Title -->
+		<div class="jumbotron">
+			<h1 class="text-center"><strong>Crystal Collector!</strong></h1>	
+			<hr>
+			<!-- <div class="text-center">
+			    <button class="btn btn-warning btn-xs themeButton"><span class="glyphicon glyphicon-music"></span> Play Theme!</button>		  	
+		    	<button class="btn btn-default btn-xs pauseButton"><span class="glyphicon glyphicon-pause"></span> Pause Song</button>	
+			</div> -->
+
+		</div>
+		<div class="row">
+
+			<!-- Left Panel -->
+			<div class="col-lg-6">
+
+				<!-- Wins vs Losses-->
+				<div class="panel panel-default">
+				  <div class="panel-heading">
+				    	<h3 class="panel-title"><strong>WINS VERSUS LOSSES</strong></h3>
+				  </div>
+				  <div class="panel-body">
+					  <div class="text-center">
+					  </div>
+				  </div>
+				</div>
+
+				<!-- Crystal Selection -->
+				<div class="panel panel-default">
+				  <div class="panel-heading">
+				    	<h3 class="panel-title"><strong>SELECT YOUR CRYSTAL</strong></h3>
+				  </div>
+				  <div class="panel-body">
+					  <div class="text-center" id="crystals">
+					  </div>
+				  </div>
+				</div>
+
+				<!-- Value of Crystal -->
+				<div class="panel panel-default">
+				  <div class="panel-heading">
+				    	<h3 class="panel-title"><strong>REVEAL THE VALUE</strong></h3>
+				  </div>
+				  <div class="panel-body">
+					  <div class="text-center">
+					  <p><strong id="yourNumber"></strong></p>
+					  </div>
+				  </div>
+
+				</div>
+	
+			</div>
+				<!-- Display Box-->
+			<div class="col-lg-6">
+				<div class="panel panel-default">
+				  <div class="panel-heading">
+				    	<h3 class="panel-title"><strong>NUMBER OF FATE</strong></h3>
+				  </div>
+				  <div class="panel-body">
+					  <div class="text-center">
+					  <p><strong id="number"></strong></p>
+					  </div>
+				  </div>
+			    </div>
+			</div>
+		</div>
+
+	
+	<!-- Javascript -->
+	<script src="../assets/javascript/game.js" type="text/javascript"></script>
+
+	</div>
+</body>
